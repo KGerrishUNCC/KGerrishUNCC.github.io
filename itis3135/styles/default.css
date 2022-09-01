@@ -4,6 +4,7 @@ body
   color: #00CBD2;
   background-color: #102D48;
   border: 0 !important;
+  
 }
 
 ul#horizontal-list { 
@@ -16,7 +17,7 @@ nav{
 }
 a:link , a:visited{
   color:#59EEDF;
-  text-decoration: none;
+  text-decoration:none;
 }
 a:hover{
   color:#FB6C6C;
@@ -278,3 +279,4 @@ padding: 10px;
     width: 25%;
     border-radius: 8px;
 }
+
