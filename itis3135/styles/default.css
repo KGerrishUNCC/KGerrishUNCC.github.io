@@ -16,11 +16,12 @@ nav{
 }
 a:link , a:visited{
   color:#59EEDF;
+  text-decoration: none;
 }
 a:hover{
   color:#FB6C6C;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 header h1
 {
