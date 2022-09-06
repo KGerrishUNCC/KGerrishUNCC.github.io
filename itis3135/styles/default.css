@@ -8,6 +8,7 @@ body
 }
 
 
+
 ul#horizontal-list { 
    display:inline;
    text-align: center;
@@ -53,7 +54,7 @@ main h3
 {
   font-family: courier, serif;
   text-align: center;
-;
+
   color:#3FBA89;
 }
 main p
@@ -134,20 +135,9 @@ p1
   color:#3FBA89;
   text-decoration: none;
 }
-form
-{
-  font-family: courier, serif;
-  text-align: center;
-  color:#3FBA89;
+
 }
-footer
-{
-    font-family: courier, serif;
-    text-align: center;
-    color:#59EEDF;
-    text-decoration: none;
-    border: 0 !important;
-}
+
 .textbox
 {
   border: 3px solid #FB6C6C;
@@ -169,16 +159,25 @@ table, th, td
   display: table;
   padding-left: 0px;
 }
-.form
+form
 {
 text-align: center;
-background-color: #FB6C6C;
+background-color: #3CA985;
 border-color: #000000;
 border-style: inset;
-margin-left: 240px;
-margin-right: 240px;
+margin-left: 180px;
+margin-right: 180px;
 padding: 10px;
 }
+.button{
+font-size:13px;
+color: #0BFCDC;
+background-color: #187254
+}
+.button:hover{
+color:#19CEB5;
+}
+
 #slides img
 {
   height: 250px;
@@ -284,5 +283,14 @@ padding: 10px;
     margin-right: auto;
     width: 25%;
     border-radius: 8px;
+}
+
+footer
+{
+    font-family: courier, serif;
+    text-align: center;
+    color:#59EEDF;
+    text-decoration: none;
+    border: 0 !important;
 }
 
