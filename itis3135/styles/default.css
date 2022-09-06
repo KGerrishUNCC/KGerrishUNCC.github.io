@@ -7,9 +7,10 @@ body
   
 }
 
+
 ul#horizontal-list { 
    display:inline;
-   text-align: center
+   text-align: center;
 }
 nav{
   font-family: courier, serif;
@@ -51,7 +52,7 @@ main figure
 main h3
 {
   font-family: courier, serif;
-  text-align: center
+  text-align: center;
 ;
   color:#3FBA89;
 }
