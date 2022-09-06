@@ -51,7 +51,7 @@ main figure
 main h3
 {
   font-family: courier, serif;
-  text-align: left
+  text-align: center
 ;
   color:#3FBA89;
 }
@@ -110,16 +110,21 @@ ol
 table
 {
   font-family: courier, serif;
-  color: #FB6C6C;
+  color: black;
 }
-table tr:nth-child(even)
+
+table tr:nth-of-type(odd)
 {
-    background-color: #3FBA89;
+    background-color: #13A171;
 }
+table tr:nth-of-type(even){
+    background-color: #83D0B6;
+}
+
 
 th
 {
-  background-color: #3FBA89;
+  background-color: #096345;
 }
 p1
 {
