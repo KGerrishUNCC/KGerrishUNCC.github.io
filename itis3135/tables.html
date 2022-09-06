@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+   <head>
+      <meta charset = "utf-8">
+      <title>
+         Ken Gerrish &#9824; ITIS 3135 &#9824; tables &#9824;
+      </title>
+      <link href="styles/default.css" rel="stylesheet" type="text/css" >
+   </head>
+   <body>
+      <header>
+         <h1>&#9824; Ken Gerrish ITIS3135 &#9824;</h1>
+         <nav>
+            &#9824; <a href="./">Home</a> &#9824;
+            <a href="introduction.html">Introduction</a> &#9824;
+            <a href="https://webpages.charlotte.edu/kgerrish/">UNCC Home Page</a> &#9824;
+            <a  href="contract.html">Contract</a> &#9824;
+            <a href="tables.html">Tables</a> &#9824;
+         </nav>
+      </header>
+      <main>
+         <h2><strong>
+            HTML Tables
+            </strong>
+         </h2>
+         <h3>
+            My Tabular Data
+         </h3>
+         <ol>
+            <li>Jack Millan JMillan@gmail.com 1
+            <li>Tanner Guy TGuy@yahoo.com 6
+            <li> Anna Yang AYang@hotmail.com 9
+            <li> Kristen Burger KBurger@gmail.com 11
+            <li> Gary Owens GOwens@yahoo.com 3
+            <li> Rianne Taylor RTaylor@hotmail.com 5
+            <li> Wendy Smith WSmith@yahoo.com 2
+            <li> Don Johnson DonJohnson@roadrunnermail.com 2
+         </ol>
+         <h3>
+            Employee Data in Simple Table
+         </h3>
+         <table class="center" style="width:50%">
+            <tr>
+               <th>Name</th>
+               <th>Email</th>
+               <th>Years of Service</th>
+            </tr>
+            <tr>
+               <td>Jack Millan</td>
+               <td>JMillan@gmail.com</td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>Tanner Guy</td>
+               <td>TGuy@yahoo.com</td>
+               <td>6</td>
+            </tr>
+            <tr>
+               <td>Anna Yang</td>
+               <td>AYang@hotmail.com</td>
+               <td>9</td>
+            </tr>
+            <tr>
+               <td>Kristen Burger</td>
+               <td>KBurger@gmail.com</td>
+               <td>11</td>
+            </tr>
+            <tr>
+               <td>Gary Owens</td>
+               <td>GOwens@yahoo.com</td>
+               <td>7</td>
+            </tr>
+            <tr>
+               <td>Rianne Taylor</td>
+               <td>RTaylor@hotmail.com</td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>Wendy Smith</td>
+               <td>WSmith@yahoo.com</td>
+               <td>2</td>
+            </tr>
+            <tr>
+               <td>Don Johnson</td>
+               <td>DonJohnson@roadrunnermail.com</td>
+               <td>2</td>
+            </tr>
+         </table>
+         <br>
+         <h3><strong>
+            Employee Data in Complex Table
+            </strong>
+         </h3>
+         <figure>
+            <table class="center" style="width:50%">
+               <tr>
+                  <th id="Position" headers="Position">Position</th>
+                  <th id="Name" headers="Name" >Name</th>
+                  <th id="Email" headers="Email" >Email</th>
+                  <th id="Years_of_Service" headers="Years_of_Service" >Years of Service</th>
+                  <th id="Salary" headers="Salary" >Salary</th>
+               </tr>
+               <tr>
+                  <td  headers="Position" rowspan="1">CEO</td>
+                  <td  headers="Name">Jack Millan</td>
+                  <td  headers="Email">JMillan@gmail.com</td>
+                  <td  headers="Years_of_Service">1</td>
+                  <td  headers="Salary">$200,000</td>
+               </tr>
+               <tr>
+                  <td  headers="Position" rowspan="2">CFO</td>
+                  <td  headers="Name">Tanner Guy</td>
+                  <td  headers="Email">TGuy@yahoo.com</td>
+                  <td  headers="Years_of_Service">6</td>
+                  <td  headers="Salary">$140,000</td>
+               </tr>
+               <tr>
+                  <td  headers="Name">Anna Yang</td>
+                  <td  headers="Email">AYang@hotmail.com</td>
+                  <td  headers="Years_of_Service">10</td>
+                  <td  headers="Salary">$140,000</td>
+               </tr>
+               <tr>
+                  <td  headers="Position" rowspan="2">Design</td>
+                  <td  headers="Name">Kristen Burger</td>
+                  <td  headers="Email">KBurger@gmail.com</td>
+                  <td  headers="Years_of_Service">11</td>
+                  <td  headers="Salary">$90,000</td>
+               </tr>
+               <tr>
+                  <td  headers="Name">Gary Owens</td>
+                  <td  headers="Email">GOwens@yahoo.com</td>
+                  <td  headers="Years_of_Service">3</td>
+                  <td  headers="Salary">$90,000</td>
+               </tr>
+               <tr>
+                  <td  headers="Position" rowspan="2">Engineering</td>
+                  <td  headers="Name">Rianne Taylor</td>
+                  <td  headers="Email">RTaylor@hotmail.com</td>
+                  <td  headers="Years_of_Service">5</td>
+                  <td  headers="Salary">$115,000</td>
+               </tr>
+               <tr>
+                  <td  headers="Name" >Wendy Smith</td>
+                  <td  headers="Email">WSmith@yahoo.com</td>
+                  <td  headers="Years_of_Service">2</td>
+                  <td  headers="Salary">$115,000</td>
+               </tr>
+               <tr>
+                  <td  headers="Position" rowspan="1">Intern</td>
+                  <td  headers="Name" >Don Johnson</td>
+                  <td  headers="Email">DonJohnson@roadrunnermail.com</td>
+                  <td  headers="Years_of_Service">2</td>
+                  <td  headers="Salary">$20,000</td>
+               </tr>
+               <tr>
+                  <th id="par" colspan="3" scope="colgroup" >Total Years of Service</th>
+                  <th id="co4_co9" headers="Years_of_Service">40</th>
+                  <th id="co5_co9" headers="Salary">$910,000</th>
+               </tr>
+            </table>
+            <figcaption>Employee Information
+            </figcaption>
+         </figure>
+      </main>
+      <footer>
+         <br/>
+         <nav>
+            &#9824; <a href="https://webpages.charlotte.edu/kgerrish/itis3135/">UNCC Webpage</a> &#9824;
+            <a href="https://kgerrishuncc.github.io/itis3135/">Github Web Page</a> &#9824;
+            <a href="https://kgerrishuncc.github.io/">Github Website Root</a> &#9824;
+            <a href="https://github.com/KGerrishUNCC/KGerrishUNCC.github.io">Github Account Repository</a> &#9824;
+            <a href="https://www.freecodecamp.org/Ken_Gerrish">Free Code Camp</a> &#9824;
+            <a href="https://www.codecademy.com/profiles/Ken_Gerrish">Code Academy</a> &#9824;
+            <a href="https://www.linkedin.com/in/ken-gerrish-03249124a/">linkedIn</a> &#9824;
+         </nav>
+         <br />
+         Designed by <a href="brand.html"> Keen Gorilla Repair &#169; 2022 </a>
+         <p>
+            <a href="https://validator.w3.org/check?uri=referer" style="text-decoration: none">
+            <img src="images/button_validation_html5.png" width="88" height="31" alt="Link to HTML validator">
+            </a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" style="text-decoration: none">
+            <img src="images/button_validation_css.png" width="88" height="31" alt="Link to CSS validator">
+            </a>
+         </p>
+      </footer>
+   </body>
+</html>
