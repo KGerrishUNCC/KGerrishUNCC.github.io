@@ -57,6 +57,9 @@ main h3
 
   color:#3FBA89;
 }
+h3 a:link{
+text-decoration: underline;
+}
 main p
 {
     font-family: courier, serif;
