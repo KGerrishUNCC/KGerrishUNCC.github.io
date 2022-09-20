@@ -6,23 +6,11 @@
          Ken Gerrish &#9824; ITIS 3135 &#9824; Keen Gorilla &#9824; Forms &#9824;
       </title>
       <link href="styles/default.css" rel="stylesheet" type="text/css" >
+      <script src="scripts/htmlinclude.js"></script>
+      <script src = "scripts/navandfooter.js"></script>
    </head>
    <body>
-      <header>
-         <h1>&#9824; Ken Gerrish ITIS3135 &#9824;</h1>
-         <nav>
-         &#9824; <a href="./">Home</a> &#9824;
-         <a href="introduction.html">Introduction</a> &#9824;
-         <a href="https://webpages.charlotte.edu/kgerrish/">UNCC Home Page</a> &#9824;
-         <a  href="contract.html">Contract</a> &#9824;
-         <a href="tables.html">Tables</a> &#9824;
-         <a href="forms.html">Forms</a> &#9824;
-         <a href="brand.html">Brand</a> &#9824;
-         <a href="CRAP/CRAP%20PAGE%20😎.htm">Crap</a> &#9824;
-         <a href="website_evaluations.html">Website Evaluation</a> &#9824;
-         <a href="first-scripts.html">First Scripts</a> &#9824;
-         </nav>
-      </header>
+     <div data-include="components/header.html"></div>
       <main>
          <h2><strong>
             HTML Forms
@@ -65,29 +53,11 @@
                 </form>
         
       </main>
-      <footer>
-         <br/>
-         <nav>
-            &#9824; <a href="https://webpages.charlotte.edu/kgerrish/itis3135/">UNCC Webpage</a> &#9824;
-            <a href="https://kgerrishuncc.github.io/itis3135/">Github Web Page</a> &#9824;
-            <a href="https://kgerrishuncc.github.io/">Github Website Root</a> &#9824;
-            <a href="https://github.com/KGerrishUNCC/KGerrishUNCC.github.io">Github Account Repository</a> &#9824;
-            <a href="https://www.freecodecamp.org/Ken_Gerrish">Free Code Camp</a> &#9824;
-            <a href="https://www.codecademy.com/profiles/Ken_Gerrish">Code Academy</a> &#9824;
-            <a href="https://www.linkedin.com/in/ken-gerrish-03249124a/">linkedIn</a> &#9824;
-         </nav>
-         <br />
-         Designed by <a href="gerrishdesignllc/"> Gerrish Design LLC &#169; 2022 </a>
-         <p>
-            <a href="https://validator.w3.org/check?uri=referer" style="text-decoration: none" id="validation_link_html">
-            <img src="images/button_validation_html5.png" width="88" height="31" alt="Link to HTML validator">
-            </a>
-            <a href="https://jigsaw.w3.org/css-validator/check/referer" style="text-decoration: none" id="validation_link_css">
-            <img src="images/button_validation_css.png" width="88" height="31" alt="Link to CSS validator">
-            </a>
-         </p>
-      </footer>
-       <script src = "scripts/default.js"> 
+     <div data-include="components/footer.html"></div>
+        <script>
+        includeHTML();
+          document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+            document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
                   
         </script>
    </body>
