@@ -7,8 +7,22 @@ body
   
 }
 
-
-
+#timeoutput
+      {
+        font-family: courier, serif;
+        text-align: left;
+        color:#FB6C6C;
+      }
+      #input
+      {
+        font-family: courier, serif;
+        text-align: left;
+        color:#FB6C6C;
+      }
+.left{
+ text-align:left;
+ margin-left: 20px;
+}
 ul#horizontal-list { 
    display:inline;
    text-align: center;
@@ -139,7 +153,7 @@ p1
   text-decoration: none;
 }
 
-}
+
 
 .textbox
 {
@@ -165,7 +179,7 @@ table, th, td
 form
 {
 text-align: center;
-background-color: #3CA985;
+background-color: #288578;
 border-color: #000000;
 border-style: inset;
 margin-left: 180px;
