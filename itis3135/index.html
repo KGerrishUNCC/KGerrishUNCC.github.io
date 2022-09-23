@@ -7,7 +7,7 @@
       </title>
       <link href="styles/default.css" rel="stylesheet" type="text/css" >
       <script src="scripts/navandfooter.js"></script>
-      
+      <script src = "scripts/defaultscripts.js"></script>
    </head>
    <body>
      <div data-include="components/header.html"></div>
@@ -20,11 +20,12 @@
       </main>
      <script>
          includeHTML();
-         document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
-            document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
          </script>
      <div data-include="components/footer.html"></div>
-     
+      <script>
+       document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+       document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+       </script>
    </body>
    
 </html>
