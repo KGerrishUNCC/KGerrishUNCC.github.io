@@ -33,7 +33,7 @@ function welcome()
 {
     let name = document.getElementById("name").value;
     let feeling = document.getElementById("feeling").value;
-    let fullWelcome = "The Keen Gorilla welcomes you, " + name + "! We're glad you are doing " + feeling + "!";
+    let fullWelcome = "The Gerrish Design LLC welcomes you, " + name + "! We're glad you are doing " + feeling + "!";
     document.getElementById("welcomeoutput").innerHTML = fullWelcome;
 }
 function websiteperstore()
