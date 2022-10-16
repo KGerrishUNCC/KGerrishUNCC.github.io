@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Ken Gerrish &#9824; ITIS 3135 &#9824; Keen Gorilla &#9824; Slideshow
+    </title>
+    <link href = "styles/default.css" type = "text/css" rel = "stylesheet" >
+    <script src = "scripts/slideshow.js"></script>
+    <script src = "scripts/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <div data-include="components/header.html"></div>
+    <main style="text-align: center;">
+        <h2>Projects</h2>
+
+        <div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="images/Blackbird.PNG" style="width:300px">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="images/yzf600r.PNG" style="width:300px">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="images/300zx.PNG" style="width:200px">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="images/300zxInterior.PNG" style="width:300px">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="images/F100.PNG" style="width:300px">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="images/R8.PNG" style="width:300px">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="images/Blackbird.PNG" style="width:50%" onclick="currentSlide(1)"
+                        alt="Night Ride">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/yzf600r.PNG" style="width:50%" onclick="currentSlide(2)"
+                        alt="Fresh Paint">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/300zx.PNG" style="width:50%" onclick="currentSlide(3)"
+                        alt="Bad financial decisions">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/300zxInterior.PNG" style="width:50%" onclick="currentSlide(4)"
+                        alt="New seats">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/F100.PNG" style="width:50%" onclick="currentSlide(5)"
+                        alt="Old Girl">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/R8.PNG" style="width:50%" onclick="currentSlide(6)"
+                        alt="Maintenance">
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <div data-include="components/footer.html"></div>
+    <script src = "scripts/htmlinclusion.js"></script>
+</body>
+</html>
