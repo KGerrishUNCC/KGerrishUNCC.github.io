@@ -1,0 +1,320 @@
+body
+{
+  font-family: Tahoma, sans-serif;
+  color: #E98A15;
+  background-color: #003B36;
+  border: 0 !important;
+  
+}
+
+  html {
+  box-sizing: border-box;
+}
+
+
+
+ 
+#timeoutput
+      {
+        font-family: courier, serif;
+        text-align: left;
+        color:#FB6C6C;
+      }
+      #input
+      {
+        font-family: courier, serif;
+        text-align: left;
+        color:#FB6C6C;
+      }
+.left{
+ text-align:left;
+ margin-left: 20px;
+}
+ul#horizontal-list { 
+   display:inline;
+   text-align: center;
+}
+nav{
+  font-family: courier, serif;
+  text-align: center;
+}
+a:link , a:visited{
+  color:#ECE5F0;
+  text-decoration:none;
+}
+a:hover{
+  color:#A5F8D3;
+  background-color: transparent;
+  text-decoration: none;
+}
+header h1
+{
+  font-family: courier, serif;
+  text-align: center;
+  color: #E98A15;
+}
+main h1
+{
+  font-family: courier, serif;
+  text-align: center;
+  color: #E98A15;
+}
+main h2
+{
+  font-family: courier, serif;
+  text-align: center;
+  color: #A5F8D3;
+}
+main figure
+{
+  font-family: courier, serif;
+  text-align: center;
+  color: #59114D;
+}
+main h3
+{
+  font-family: courier, serif;
+  text-align: center;
+
+  color:#59114D;
+}
+h3 a:link{
+text-decoration: underline;
+}
+main p
+{
+    font-family: courier, serif;
+    text-align: center;
+    color:#F45B69;
+    text-decoration: none;
+}
+main con1
+{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: courier, serif;
+  color:#59114D;
+}
+main con2
+{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: courier, serif;
+  color:#59114D;
+}
+main con3
+{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: courier, serif;
+  color:#59114D;
+}
+main con4
+{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: courier, serif;
+  color:#59114D;
+}
+main sig
+{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: courier, serif;
+  color:#E98A15;
+}
+main ut
+{
+  font-family: courier, serif;
+  color:#6B2737;
+}
+ol
+{
+  font-family: courier, serif;
+  color:#ECE5F0;
+}
+table
+{
+  font-family: courier, serif;
+  color: #59114D;
+}
+
+table tr:nth-of-type(odd)
+{
+    background-color: #59114D;
+}
+table tr:nth-of-type(even){
+    background-color: #ECE5F0;
+}
+
+
+th
+{
+  background-color: #E98A15;
+}
+p
+{
+  font-family: courier, serif;
+  text-align: center;
+  color:#ECE5F0;
+  text-decoration: none;
+}
+
+
+
+.textbox
+{
+  border: 3px solid #FB6C6C;
+  border-radius: 4px;
+}
+table, th, td 
+{
+  border:1px solid black;
+}
+.center
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+.centered_div
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  padding-left: 0px;
+}
+form
+{
+text-align: center;
+background-color: #ECE5F0;
+border-color: #000000;
+border-style: inset;
+margin-left: 180px;
+margin-right: 180px;
+padding: 10px;
+}
+.button{
+font-size:13px;
+color: #E4FDE1;
+background-color: #456990
+}
+.button:hover{
+color:#19CEB5;
+}
+
+#slides img
+{
+  height: 250px;
+  display: none;
+  align-items: center;
+}
+
+* 
+{
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+}
+.mySlides {
+  display: none;
+}
+.cursor {
+  cursor: pointer;
+}
+.prev{
+  cursor: pointer;
+  top: 40%;
+  width: 300px;
+  padding: 60px;
+  left: 0%;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  cursor: pointer;
+  position: relative;
+  top: 40%;
+  width: 300px;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  left: 400px;
+  top: 0;
+}
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+#type
+{
+    font-family: courier, serif;
+    color:#FB6C6C;
+    text-align: center;
+}
+#polygons
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 8px;
+}
+
+footer
+{
+    font-family: courier, serif;
+    text-align: center;
+    color:#E98A15;
+    text-decoration: none;
+    border: 0 !important;
+}
+
