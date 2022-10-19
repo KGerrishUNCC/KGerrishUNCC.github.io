@@ -1,28 +1,41 @@
 body
 {
-  font-family: Tahoma, sans-serif;
+  font-family: Garamond;
   color: #E98A15;
-  background-color: #003B36;
-  border: 0 !important;
   
+  background-color: #003B36;
+  border: 0 !important;  
 }
+.center{
+display:block;
+margin-left:auto;
+margin-right:auto;
 
+
+
+}
   html {
   box-sizing: border-box;
 }
+figcaption{
+font-size:20px;
+}
 
-
-
+.Introduction{
+font-size: 50px;
+margin-left:250px;
+margin-right:250px;
+}
  
 #timeoutput
       {
-        font-family: courier, serif;
+        font-family: Garamond;
         text-align: left;
         color:#FB6C6C;
       }
       #input
       {
-        font-family: courier, serif;
+        font-family: Garamond;
         text-align: left;
         color:#FB6C6C;
       }
@@ -35,7 +48,7 @@ ul#horizontal-list {
    text-align: center;
 }
 nav{
-  font-family: courier, serif;
+  font-family: Garamond;
   text-align: center;
 }
 a:link , a:visited{
@@ -49,41 +62,42 @@ a:hover{
 }
 header h1
 {
-  font-family: courier, serif;
+  font-family: Optima;
   text-align: center;
   color: #E98A15;
 }
 main h1
 {
-  font-family: courier, serif;
+  font-family: Optima;
   text-align: center;
   color: #E98A15;
 }
 main h2
 {
-  font-family: courier, serif;
+  font-family: Optima;
   text-align: center;
   color: #A5F8D3;
 }
 main figure
 {
-  font-family: courier, serif;
+  font-family: Garamond;
   text-align: center;
-  color: #59114D;
+  color: #E98A15;
 }
 main h3
 {
-  font-family: courier, serif;
-  text-align: center;
+  font-family: Optima;
+  text-align: left;
 
-  color:#59114D;
+  color:#A5F8D3;
 }
 h3 a:link{
 text-decoration: underline;
 }
 main p
 {
-    font-family: courier, serif;
+    font-family: Garamond;
+  
     text-align: center;
     color:#F45B69;
     text-decoration: none;
@@ -92,50 +106,50 @@ main con1
 {
   margin-left: 50px;
   margin-right: 50px;
-  font-family: courier, serif;
+  font-family: Garamond;
   color:#59114D;
 }
 main con2
 {
   margin-left: 50px;
   margin-right: 50px;
-  font-family: courier, serif;
+  font-family: Garamond;
   color:#59114D;
 }
 main con3
 {
   margin-left: 50px;
   margin-right: 50px;
-  font-family: courier, serif;
+  font-family: Garamond;
   color:#59114D;
 }
 main con4
 {
   margin-left: 50px;
   margin-right: 50px;
-  font-family: courier, serif;
+  font-family: Garamond;
   color:#59114D;
 }
 main sig
 {
   margin-left: 50px;
   margin-right: 50px;
-  font-family: courier, serif;
+  font-family: Garamond;
   color:#E98A15;
 }
 main ut
 {
-  font-family: courier, serif;
+  font-family: Garamond;
   color:#6B2737;
 }
 ol
 {
-  font-family: courier, serif;
+  font-family: Garamond;
   color:#ECE5F0;
 }
 table
-{
-  font-family: courier, serif;
+
+  font-family: Garamond;
   color: #59114D;
 }
 
@@ -154,13 +168,17 @@ th
 }
 p
 {
-  font-family: courier, serif;
+  font-family: Garamond;
   text-align: center;
   color:#ECE5F0;
   text-decoration: none;
 }
 
-
+.Introduction{
+font-size: 20px;
+margin-left:auto;
+margin-right:auto;
+}
 
 .textbox
 {
@@ -215,9 +233,11 @@ color:#19CEB5;
 }
 .container {
   position: relative;
+  
 }
 .mySlides {
   display: none;
+  
 }
 .cursor {
   cursor: pointer;
@@ -226,7 +246,7 @@ color:#19CEB5;
   cursor: pointer;
   top: 40%;
   width: 300px;
-  padding: 60px;
+  padding: 6px;
   left: 0%;
   margin-top: -50px;
   color: white;
@@ -242,7 +262,7 @@ color:#19CEB5;
   position: relative;
   top: 40%;
   width: 300px;
-  padding: 16px;
+  padding: 6px;
   margin-top: -50px;
   color: white;
   font-weight: bold;
@@ -262,11 +282,10 @@ color:#19CEB5;
 
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
+  font-size: 16px;
   padding: 8px 12px;
-  position: absolute;
-  left: 400px;
-  top: 0;
+ 
+  text-align:center;
 }
 .caption-container {
   text-align: center;
@@ -296,7 +315,7 @@ color:#19CEB5;
 }
 #type
 {
-    font-family: courier, serif;
+    font-family: Garamond;
     color:#FB6C6C;
     text-align: center;
 }
@@ -311,7 +330,8 @@ color:#19CEB5;
 
 footer
 {
-    font-family: courier, serif;
+    font-family: Garamond;
+    font-size:18px;
     text-align: center;
     color:#E98A15;
     text-decoration: none;
