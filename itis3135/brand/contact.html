@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+   <head>
+      <meta charset = "utf-8">
+      <title>
+         Ken Gerrish &#9824; ITIS 3135 &#9824; Keen Gorilla &#9824; Forms &#9824;
+      </title>
+      <link href="styles/default.css" rel="stylesheet" type="text/css" >
+      <script src="scripts/w3.js"></script>
+       <script>
+    function showInput() {
+        document.getElementById('display').innerHTML = 
+                    "Name: " +document.getElementById("name").value + " | "+ " Phone: " +document.getElementById("phone").value + " | "+" Email: "+
+                    document.getElementById("email").value + " | "+" Comments: "+document.getElementById("comments").value
+      
+    }
+  </script>
+     
+       <script src = "scripts/htmlinclusion.js"></script>
+   </head>
+   <body>
+         <div w3-include-html="components/header.html"></div>
+         <script> w3.includeHTML();</script>
+    
+      <main>
+         <h2><strong>
+            Brand Contact
+         </strong></h2>
+         <form>
+                    <label for="name"><strong>Name:</strong></label><br>
+                    <input type="text" id="name" name="name" placeholder="First and Last Name"><br>
+                    <label for="phone"><strong>Phone Number:</strong></label><br>
+                    <input type="text" id="phone" name="phone" placeholder="###-###-####"><br>
+                    <label for="email"><strong>Email Adress:</strong></label><br>
+                    <input type="text" id="email" name="email" placeholder="abcd@email.com"><br>
+                    <br>
+
+                    <label for="comments"><strong>Comments</strong></label><br>
+                    <textarea  id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+                    <br>
+                    <br>
+                   
+                    <br>
+
+                  
+                   <br>
+                    
+                
+                </form>
+                 <input type="submit" value="Submit" onclick="showInput();" class="button">
+                
+                <p>Your input</p>
+                <p><span id = 'display'></span> </p>
+                
+                
+      </main>
+    
+      <div w3-include-html="components/footer.html"></div>
+      <script src = "scripts/htmlinclusion.js"></script>
+   </body>
+</html>
