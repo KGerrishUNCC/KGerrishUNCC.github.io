@@ -37,6 +37,10 @@ ul#horizontal-list {
 nav{
   font-family: courier, serif;
   text-align: center;
+ margin-right:auto;
+ margin-left:auto;
+ padding-right:200px;
+ padding-left:200px;
 }
 a:link , a:visited{
   color:#59EEDF;
@@ -264,9 +268,8 @@ color:#19CEB5;
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
-  position: absolute;
-  left: 400px;
-  top: 0;
+ text-align:center;
+  
 }
 .caption-container {
   text-align: center;
