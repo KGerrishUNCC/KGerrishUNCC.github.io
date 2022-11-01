@@ -20,3 +20,4 @@ function openTab(event, tabNum) {
     document.getElementById(tabNum).style.display = "block";
     event.currentTarget.className += " active";
 }
+
