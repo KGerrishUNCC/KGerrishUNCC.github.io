@@ -10,6 +10,7 @@ body
 display:block;
 margin-left:auto;
 margin-right:auto;
+border-radius:50%;
 
 
 
@@ -50,6 +51,10 @@ ul#horizontal-list {
 nav{
   font-family: Garamond;
   text-align: center;
+}
+.button2:hover{
+color:#ECE5F0;
+background-color:#8c530d
 }
 a:link , a:visited{
   color:#ECE5F0;
@@ -160,12 +165,38 @@ table tr:nth-of-type(odd)
 table tr:nth-of-type(even){
     background-color: #ECE5F0;
 }
-
-
+.button2 {
+  font: bold 14px Arial;
+  text-decoration: none;
+  background-color: #E98A15;
+  color: #E98A15;
+  padding: 1px 10px 1px 10px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  border-radius: 25px;
+}
+.network{
+text-align:left;
+font-size:20px;
+margin-left:40px;
+}
 th
 {
   background-color: #E98A15;
 }
+.single{
+margin-left:auto;
+padding-left:20px;
+}
+.circle{
+border-radius:50%;
+margin-left:20px;;
+padding:left:20px;
+width:290px;
+}
+
 p
 {
   font-family: Garamond;
@@ -327,7 +358,9 @@ color:#19CEB5;
     width: 25%;
     border-radius: 8px;
 }
-
+li{
+font-size:20px;
+}
 footer
 {
     font-family: Garamond;
