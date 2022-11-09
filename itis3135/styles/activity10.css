@@ -12,9 +12,28 @@
   box-sizing: border-box;
 }
 
+nav{
+  font-family: courier, serif;
+  text-align: center;
+ margin-right:auto;
+ margin-left:auto;
+ padding-right:200px;
+ padding-left:200px;
+}
+.flexing{
+display:flex;
+justify-content:center;
+}
+.line{
+display:block;
+margin-left:auto;
+margin-right:auto;
 
+}
+.line:hover{
+backgrounc-color:transparent;
+}
 
- 
 #timeoutput
       {
         font-family: courier, serif;
