@@ -1,0 +1,8 @@
+        <h3 class="single">Software Proficiencies</h3>
+        <ul>
+        <li>ZBrush</li>
+        <li>3d-Coat</li>
+        <li>Autodesk Maya</li>
+        <li>Photoshop, Premiere</li>
+        <li>Harmony and StoryBoard Pro</li>
+        </ul>
