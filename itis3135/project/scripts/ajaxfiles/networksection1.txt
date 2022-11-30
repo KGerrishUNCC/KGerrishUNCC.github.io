@@ -1,0 +1,6 @@
+        <h3 class="single">Savannah College of Art and Design Graduate</h3>
+        <ul>
+        <li>B.F.A in Interactive Design/Game Development-<strong><i>Suma Cum Laude</i></strong> (2020)</li>
+        <li>Minor in Concept Game Art</li>
+        <li>Currently Pursuing M.F.A in Animation (present-2022)</li>
+        </ul>
