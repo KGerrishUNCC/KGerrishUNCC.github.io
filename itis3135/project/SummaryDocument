@@ -1,0 +1,34 @@
+Ken Gerrish
+
+Summary Document
+
+
+Assignment Specifications
+
+My site meets the assignment specifications by utilizing jquery to run a photo and animation gallery.
+I use jquery ui to be able to move through the slideshow and select an image at any point. I have
+used ajax requests to load information for sections of the professional background page, as well as for HTMLInclusion. 
+
+
+Accessibility
+
+
+For accessibility, I have implemented the following:
+
+-H57 (Using language attributes on the html element)
+-G61 (Presenting repeated components in the same relative order each time they appear)
+-G141 (Organizing a page using headings)
+-G91 (Providing link text that describes the purpose of a link)
+-G130 (Providing descriptive headings)
+
+
+Feedback and Overall Project Overview
+
+I recieved feedback for websites outside of my project sites. I have made sure to
+change my overall margins to bring text elements closer, fixed a radio button issue,
+and made sure that all sites are free of validation errors.
+
+I believe I have closely followed the criteria given to me by my client: Matthew Buttafuoco.
+He has asked for a site which can act as a hub for other personal pages as well as give
+insight to his professional background, colleagues, and animations. I would like to continue
+to add to this page, increasing interactibility along the way.
