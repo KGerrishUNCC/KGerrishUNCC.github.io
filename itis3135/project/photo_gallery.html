@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>
+        Buttafuoco Design | Photo Gallery
+    </title>
+    <link rel="icon" type="images/x-icon" href="images/favicon.ico">
+    <link href = "styles/default.css" type = "text/css" rel = "stylesheet" >
+    <script src = "scripts/slideshow.js"></script>
+    <script src = "scripts/jquery-3.6.0.js"></script>
+
+</head>
+<body>
+    xhttp.open("GET", "ajax_info.txt", true);
+    xhttp.send();
+    <div data-include="components/projectheader.html"></div>
+    <main style="text-align: center;">
+        <h2>Photo Gallery</h2>
+
+        <div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 12</div>
+                <img  src="images/FatherBurrow.png" alt="Father Burrow" width="600">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 12</div>
+                <img src="images/TheMaw.png" alt="The Maw" width="600">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 12</div>
+                <img src="images/SnowyCabinInside.png" alt="Snowy Cabin Interior" width="600">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 12</div>
+                <img src="images/SnowyCabinOutside.png" alt="Snowy Cabin Outside" width="600">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 12</div>
+                <img src="images/SkeletonBishop.png" alt="Skeleton Bishop" width="600">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 12</div>
+                <img src="images/ThePorcelainDragon.png" alt="The Porcelain Dragon" width="600" >
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">7 / 12</div>
+                <img src="images/TheRanger.png" alt="The Ranger" width="600">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">8 / 12</div>
+                <img src="images/SunBeanpt1.png" alt="The Sunflower and the Bean (1)" width="600">
+            </div>
+             <div class="mySlides">
+                <div class="numbertext">9 / 12</div>
+                <img src="images/SunBeanpt2.png" alt="The Sunflower and the Bean (2)" width="600">
+            </div>
+              <div class="mySlides">
+                <div class="numbertext">10 / 12</div>
+                <img src="images/SunBeanpt3.png" alt="The Sunflower and the Bean (3)" width="600">
+            </div>
+              <div class="mySlides">
+                <div class="numbertext">11 / 12</div>
+                <img src="images/SunBeanpt4.png" alt="The Sunflower and the Bean (4)" width="600">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">12 / 12</div>
+                <img src="images/SunBeanpt5.png" alt="The Sunflower and the Bean (5)" width="600">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="images/FatherBurrow.png"  style="width:50%" onclick="currentSlide(1)"
+                      alt="Father Burrow">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/TheMaw.png" style="width:50%" onclick="currentSlide(2)"
+                        alt="The Maw">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/SnowyCabinInside.png" style="width:50%" onclick="currentSlide(3)"
+                        alt="Snowy Cabin Inside">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/SnowyCabinOutside.png"  style="width:50%" onclick="currentSlide(4)"
+                        alt="Snowy Cabin Outside">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/SkeletonBishop.png"  style="width:50%" onclick="currentSlide(5)"
+                        alt="Skeleton Bishop">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/ThePorcelainDragon.png" style="width:50%" onclick="currentSlide(6)"
+                        alt="The Porcelain Dragon">
+                </div>
+                 <div class="column">
+                    <img class="demo cursor" src="images/TheRanger.png" style="width:50%" onclick="currentSlide(7)"
+                        alt="The Ranger">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/SunBeanpt1.png" style="width:50%" onclick="currentSlide(8)"
+                        alt="The Sunflower and the Bean (1)">
+                </div>
+                 <div class="column">
+                    <img class="demo cursor" src="images/SunBeanpt2.png" style="width:50%" onclick="currentSlide(9)"
+                        alt="The Sunflower and the Bean (2)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/SunBeanpt3.png" style="width:50%" onclick="currentSlide(10)"
+                        alt="The Sunflower and the Bean (3)">
+                </div>
+                 <div class="column">
+                    <img class="demo cursor" src="images/SunBeanpt4.png" style="width:50%" onclick="currentSlide(11)"
+                        alt="The Sunflower and the Bean (4)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/SunBeanpt5.png" style="width:50%" onclick="currentSlide(12)"
+                        alt="The Sunflower and the Bean (5)">
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <br>
+    <div data-include="components/projectfooter.html"></div>
+    <script src = "scripts/htmlinclusion.js"></script>
+</body>
+</html>
