@@ -4,6 +4,8 @@ body
   color: #00CBD2;
   background-color: #102D48;
   border: 0 !important;
+  margin-left:100px;
+  margin-right:100px;
   
 }
 
@@ -12,7 +14,9 @@ body
 }
 
 
-
+.left-align{
+text-align:left;
+}
  
 #timeoutput
       {
@@ -193,8 +197,8 @@ text-align: center;
 background-color: #288578;
 border-color: #000000;
 border-style: inset;
-margin-left: 180px;
-margin-right: 180px;
+margin-left: 300px;
+margin-right: 300px;
 padding: 10px;
 }
 .button{
