@@ -1,0 +1,7 @@
+        <h3 class="single">Project History</h3>
+        <ul>
+        <li>Created concept art for <strong>PACKEROOS</strong> and <strong>DOODLEMANCER AR</strong> (2019-2020)</li>
+        <li><strong>ART DIRECTOR</strong> for <strong>VIVID</strong> (2019-2020)</li>
+        <li><strong>STUDENT AMBASSADOR</strong> at <strong>SCAD</strong> (2018-present)</li>
+        <li><strong>NARRATIVE SYSTEM DEVELOPMENT</strong> for <strong>LEGYNDS</strong> (2017-2018)
+        </ul>
