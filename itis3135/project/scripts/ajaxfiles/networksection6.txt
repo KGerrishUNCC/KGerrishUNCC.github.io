@@ -1,0 +1,8 @@
+        <h3 class="single">Achievements and Awards</h3>
+        <ul>
+        <li><i>National Eagle Scout award</i></li>
+        <li>Adobe Movie Poster Movie Contest-Best Illustration Winner</li>
+        <li>SCAD Academic Scholarship Award</li>
+        <li>SCAD Achievement Honors Scholarship Award</li>
+        <li>World Conservation Award</li>
+        </ul>
