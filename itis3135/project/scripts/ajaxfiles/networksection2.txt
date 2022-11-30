@@ -1,0 +1,6 @@
+        <h3 class="single">Surreal Events Employee</h3>
+        <ul>
+        <li>Current Junior Developer</li>
+        <li>Built a custom Control Rig for future avatar systems</li>
+        <li>Works with vendors to develop work flow for motion-capture animation</li>
+        </ul>
