@@ -1,0 +1,7 @@
+        <h3 class="single">Skills</h3>
+        <ul>
+        <li>2D/3D Animation</li>
+        <li>3D Modeling/Texturing</li>
+        <li>Concept Art Illustration</li>
+        <li>Control Rigging</li>
+        </ul>
